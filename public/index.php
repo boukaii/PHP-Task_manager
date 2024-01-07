@@ -39,29 +39,6 @@ switch ($action) {
         $newTaskName = isset($_POST['new_task_name']) ? $_POST['new_task_name'] : null;
         $taskController->updateTask($taskId, $newTaskName);
         break;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     case 'delete':
         // Supprimer une tâche
         $taskId = isset($_GET['id']) ? $_GET['id'] : null;

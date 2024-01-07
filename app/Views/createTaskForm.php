@@ -14,10 +14,10 @@
         <label for="task_name">Nom :</label>
         <input type="text" id="task_name" name="task_name" required>
 
-        <button type="submit">Créer tâche</button>
+        <button type="submit">Créer la tâche</button>
     </form>
 
-    <p><a href='index.php?action=list'>Revenir a la liste des tâches</a></p>
+    <p><a href='index.php?action=list'>Revenir à la liste des tâches</a></p>
 
 </body>
 

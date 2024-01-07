@@ -19,7 +19,7 @@
 
     <h2>Créer une tâche</h2>
     <form action="../public/index.php?action=create" method="post">
-        <button type="submit">Créer tâche</button>
+        <button type="submit">Créer la tâche</button>
     </form>
 
 
